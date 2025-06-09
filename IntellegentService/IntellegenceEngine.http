@@ -1,0 +1,6 @@
+@IntellegenceEngine_HostAddress = http://localhost:5150
+
+GET {{IntellegenceEngine_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,23 @@
+{
+	"type": "object",
+    "properties": {
+    "Goals": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "Title": { "type": "string" },
+                                "Director": { "type": "string" },
+                                "ReleaseYear": { "type": "integer" },
+                                "Rating": { "type": "number" },
+                                "IsAvailableOnStreaming": { "type": "boolean" },
+                                "Tags": { "type": "array", "items": { "type": "string" } }
+                            },
+                            "required": ["Title", "Director", "ReleaseYear", "Rating", "IsAvailableOnStreaming", "Tags"],
+                            "additionalProperties": false
+                        }
+                    }
+                },
+                "required": ["Goals"],
+                "additionalProperties": false
+}
